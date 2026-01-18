@@ -16,26 +16,31 @@
                 <li><a href="">Episodes</a></li>
                 <li><a href="">Host</a></li>
             </ul>
-            <button class="nav-btn font-inter font-semibold text-white px-4 py-3 rounded-[1000px]">Subscribe</button>
+            <button class="custom-btn font-inter font-semibold text-white px-4 py-3 rounded-[1000px]">Subscribe</button>
         </nav>
 
-        <section class="hero-section bg-[url(images/hero-bg.png)] bg-center pt-[90px]">
-            <div class="hero-img-container w-[350px]">
-                <img class="background" src="images/hero-circle.png" alt="">
-                <img class="microphone" src="images/microphone.png" alt="">
-            </div>
-            
-            <div class="hero-desc">
-                <h2>TechWave</h2>
-                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <button>
-                    <img src="images/spotify.png" alt="">
-                    Listen On Spotify
-                </button>
-                <button>
-                    <img src="images/message.png" alt="">
-                    Subscribe
-                </button>
+        <section class="hero-section bg-[url(images/hero-bg.png)] bg-center py-[90px]">
+            <div>
+                <div class="hero-img-container">
+                    <button class="hero-img-btn font-inter text-lg font-semibold text-[#1A0B2E] bg-green-400 px-4 py-2 rounded-[1000px]">New</button>
+                    <img class="background" src="images/hero-circle.png" alt="">
+                    <img class="microphone" src="images/microphone.png" alt="">
+                </div>
+                
+                <div class="hero-desc flex flex-col justify-center items-center text-white">
+                    <h2 class="font-inter font-extrabold text-6xl  mb-2">TechWave</h2>
+                    <p class="font-inter mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <div class="flex gap-3">
+                        <button class="flex gap-2 custom-btn rounded-[1000px] px-5 py-3 h-12">
+                            <img src="images/spotify.png" alt="">
+                            Listen On Spotify
+                        </button>
+                        <button class="flex gap-2 border border-green-500 text-green-500 rounded-[1000px] px-5 py-3 h-12">
+                            <img src="images/message.png" alt="">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
     </header>

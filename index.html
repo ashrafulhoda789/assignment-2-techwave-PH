@@ -33,7 +33,7 @@
                     <img class="microphone" src="images/microphone.png" alt="">
                 </div>
                 
-                <div class="hero-desc flex flex-col justify-center items-center text-center text-white mb-16">
+                <div class="max-w-[400px] lg:max-w-[1200px] m-auto hero-desc flex flex-col justify-center items-center text-center text-white mb-16">
                     <h2 class="font-inter font-extrabold text-5xl lg:text-6xl  mb-2">TechWave</h2>
                     <p class="font-inter mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                     <div class="flex gap-3">
@@ -53,7 +53,7 @@
 
     <main>
         <section class="bg-[#1A0B2E] flex flex-col justify-center items-center">
-            <div class="max-w-[450px] lg:max-w-[1200px]  text-center border-b border-[#ffffff]">
+            <div class="max-w-[400px] lg:max-w-[1200px]  text-center border-b border-[#ffffff]">
                 <h1 class="font-bold text-4xl lg:text-5xl text-white mb-4">About The Podcast</h1>
                 <p class="text-[14px] lg:text-[16px] text-white mb-20">
                     TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br>
@@ -64,7 +64,7 @@
                 </p>
             </div>
             
-            <div class="max-w-[1200px] grid grid-cols-2 lg:grid-cols-4 gap-20 mt-20 mb-[120px]">
+            <div class="max-w-[400px] lg:max-w-[1200px] grid grid-cols-2 lg:grid-cols-4 gap-20 mt-20 mb-[120px]">
                 <div class="text-center">
                     <h2 class="text-[#00FF88] text-5xl font-black">150k+</h2>
                     <h5 class="text-[16px] text-white">MONTHLY LISTENERS</h5>
@@ -84,40 +84,47 @@
             </div>
         </section>
 
-        <section class="bg-[#230E3D] flex flex-col justify-center items-center py-[120px]">
-            <h2 class=" mb-10 text-5xl font-bold text-white">Why Choose TechWave</h2>
-            <div class="max-w-[1200px] grid grid-cols-3 grid-rows-3 gap-[30px]">
-                <div class=" color-card rounded-[40px]  px-14 py-[50%] row-span-2 col-span-1">
-                    <img src="images/headphone.png" alt="">
-                    <h3 class="text-white text-2xl font-bold my-4">Premium Audio Quality</h3>
-                    <p class="leading-6 text-white">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+        <section class="bg-[#230E3D] flex flex-col justify-center items-center py-16 px-6 lg:py-[120px]">
+            <h2 class="mb-10 text-3xl md:text-5xl font-bold text-white text-center">Why Choose TechWave</h2>
+            
+            <div class="max-w-[1200px] w-full m-auto grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-[30px]">
+                
+                <div class=" color-card rounded-[40px] px-8 py-10 lg:px-14 lg:py-20 lg:row-span-2 col-span-1 flex flex-col justify-center">
+                    <img src="images/headphone.png" alt="" class="w-12 h-12 mb-4">
+                    <h3 class="text-white text-2xl font-bold mb-4">Premium Audio Quality</h3>
+                    <p class="leading-6 text-white/80">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering.</p>
                 </div>
-                <div class="color-card rounded-[40px] px-14 py-10 col-span-2 row-span-1">
-                    <img src="images/device.png" alt="">
-                    <h3 class="text-white text-2xl font-bold my-4">Mobile Friendly</h3>
-                    <p class="leading-6 text-white">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+
+                <div class=" color-card rounded-[40px] px-8 py-10 lg:px-14 lg:col-span-2">
+                    <img src="images/device.png" alt="" class="w-12 h-12 mb-4">
+                    <h3 class="text-white text-2xl font-bold mb-4">Mobile Friendly</h3>
+                    <p class="leading-6 text-white/80">Access your favorite episodes on the go. Our platform is fully optimized for seamless streaming on any mobile device.</p>
                 </div>
-                <div class="color-card rounded-[40px] px-14 py-10 col-span-2 row-span-1">
-                    <img src="images/location.png" alt="">
-                    <h3 class="text-white text-2xl font-bold my-4">Global Community</h3>
-                    <p class="leading-6 text-white">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+
+                <div class=" color-card rounded-[40px] px-8 py-10 lg:px-14 lg:col-span-2">
+                    <img src="images/location.png" alt="" class="w-12 h-12 mb-4">
+                    <h3 class="text-white text-2xl font-bold mb-4">Global Community</h3>
+                    <p class="leading-6 text-white/80">Join thousands of listeners worldwide. Connect, share insights, and grow with a community of tech enthusiasts.</p>
                 </div>
-                <div class="color-card rounded-[40px] px-14 py-10 col-span-2 row-span-1">
-                    <img src="images/zap-fast.png" alt="">
-                    <h3 class="text-white text-2xl font-bold my-4">Exclusive Interviews</h3>
-                    <p class="leading-6 text-white">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+
+                <div class=" color-card rounded-[40px] px-8 py-10 lg:px-14 lg:col-span-2">
+                    <img src="images/zap-fast.png" alt="" class="w-12 h-12 mb-4">
+                    <h3 class="text-white text-2xl font-bold mb-4">Exclusive Interviews</h3>
+                    <p class="leading-6 text-white/80">Get insider perspectives from industry leaders and innovators you won't find anywhere else.</p>
                 </div>
-                <div class=" color-card rounded-[40px] px-14 py-10">
-                    <img src="images/resource.png" alt="">
-                    <h3 class="text-white text-2xl font-bold my-4">Rich Resources</h3>
-                    <p class="leading-6 text-white">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+
+                <div class=" color-card rounded-[40px] px-8 py-10 lg:px-14 col-span-1">
+                    <img src="images/resource.png" alt="" class="w-12 h-12 mb-4">
+                    <h3 class="text-white text-2xl font-bold mb-4">Rich Resources</h3>
+                    <p class="leading-6 text-white/80">Download show notes, transcripts, and curated resource lists for every single episode.</p>
                 </div>
+                
             </div>
         </section>
 
         <section class="bg-[#1A0B2E] py-[120px] ">
-            <div class="max-w-[1200px] m-auto mb-[120px]">
-                <h2 class="text-5xl font-bold text-white mb-10 text-center">Featured Episodes</h2>
+            <div class="max-w-[400px] lg:max-w-[1200px] m-auto mb-[120px]">
+                <h2 class="text-4xl lg:text-5xl font-bold text-white mb-10 text-center">Featured Episodes</h2>
                 <div class="flex flex-col lg:flex-row gap-[30px] items-center">
                     <div class="max-w-[380px]">
                         <iframe class="w-[380px] rounded-t-4xl" height="215" src="https://www.youtube.com/embed/2f5NHArhhQ0?si=UWPSGYlTiG3LyGb3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -152,11 +159,11 @@
                 </div>
             </div>
 
-            <div class="max-w-[1200px] m-auto">
+            <div class="max-w-[400px]  lg:max-w-[1200px] m-auto">
                 <h2 class="text-5xl font-bold text-white mb-10 text-center">Meet The Host</h2>
-                <div class="flex flex-col lg:flex-row gap-6  color-card px-10 py-12 rounded-[40px]">
+                <div class="host-container flex flex-col lg:flex-row gap-6 color-card px-10 py-12 rounded-[40px]">
                     <img src="images/host.png" alt="">
-                    <div>
+                    <div class="host-desc">
                         <h1 class="text-[32px] font-bold text-white mb-4">Alex Kumar</h1>
                         <p class="leading-6 text-white mb-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                         <div class="flex gap-3 items-center">
@@ -171,19 +178,27 @@
         </section>
     </main>
 
-    <footer class="bg-[url(images/footer-bg.png)] bg-center  bg-cover bg-no-repeat w-screen py-[120px]">
-        <div class="max-w-[1200px] m-auto flex flex-col justify-center items-center">
-            <img class="mb-8 w-[300px]" src="images/TechWave.png" alt="">
+    <footer class="footer-section w-full py-16 lg:py-[120px]">
+        <div class="max-w-[1200px] mx-auto flex flex-col justify-center items-center">
+            <img class="mb-8 w-[200px] lg:w-[300px]" src="images/TechWave.png" alt="">
            
-            <ul class="grid grid-cols-2 lg:grid-cols-4 gap-10">
-                <li class="flex gap-2 justify-center items-center text-white"><img class="w-6 h-6" src="images/spotify.png" alt="">
-                    <span>Spotify</span></li>
-                <li class="flex gap-2 text-white"><img class="w-6 h-6" src="images/apple-podcast.png" alt="">
-                    <span>Apple Podcast</span></li>
-                <li class="flex gap-2 text-white"><img class="w-6 h-6" src="images/youtube-podcast.png" alt="">
-                    <span>Youtube</span></li>
-                <li class="flex gap-2 text-white"><img class="w-6 h-6" src="images/twitter.png" alt="">
-                    <span>Twitter</span></li>
+            <ul class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-10 items-center">
+                <li class="flex gap-2 justify-center items-center text-white">
+                    <img class="w-6 h-6" src="images/spotify.png" alt="">
+                    <span>Spotify</span>
+                </li>
+                <li class="flex gap-2 text-white">
+                    <img class="w-6 h-6" src="images/apple-podcast.png" alt="">
+                    <span>Apple Podcast</span>
+                </li>
+                <li class="flex gap-2 text-white">
+                    <img class="w-6 h-6" src="images/youtube-podcast.png" alt="">
+                    <span>Youtube</span>
+                </li>
+                <li class="flex gap-2 text-white">
+                    <img class="w-6 h-6" src="images/twitter.png" alt="">
+                    <span>Twitter</span>
+                </li>
             </ul>
             <p class="text-[#FAFAFA] mt-6">&copy; 2026 TechWave Podcast. All rights reserved.</p>
         </div>

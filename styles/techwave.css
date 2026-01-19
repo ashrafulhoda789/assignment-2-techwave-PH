@@ -33,7 +33,7 @@
 /* Hero section related style */
 .hero-img-container{
     position: relative;
-    top: 10px;
+    top: 5px;
     left: 780px;
 }
 
@@ -79,7 +79,21 @@
     }
 
     .hero-img-container{
-        left: 65px;
+        left: 40px;
+    }
+
+    .host-container, .host-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section{
+        background: url('/images/footer-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
    
 }

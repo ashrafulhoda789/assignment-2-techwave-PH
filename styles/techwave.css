@@ -18,6 +18,8 @@
     .wave-color{
         color: linear-gradient(47.64deg, rgba(255, 255, 255, 1), rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
     }
+
+
 }
 
 
@@ -54,4 +56,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    .navbar-menu, .custom-btn{
+        display: none;
+    }
+
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
 }

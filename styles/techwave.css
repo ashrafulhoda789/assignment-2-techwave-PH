@@ -51,12 +51,6 @@
 }
 
 /* Footer related Style */
-.footer-section{
-    background: url('/images/footer-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /* Mobile Device */
 @media screen and (max-width: 576px) {

@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>TechWave</title>
     <link rel="stylesheet" href="styles/techwave.css">
 </head>
-<body>
+<body class="font-inter">
     <header>
         <nav class="navbar bg-[#1A0B2E] flex justify-between items-center px-[200px] py-[30px]">
             <img src="images/TechWave.png" alt="">
@@ -21,13 +22,13 @@
 
         <section class="hero-section bg-[url(images/hero-bg.png)] bg-center py-[90px]">
             <div>
-                <div class="hero-img-container">
+                <div class="hero-img-container h-[450px]">
                     <button class="hero-img-btn font-inter text-lg font-semibold text-[#1A0B2E] bg-green-400 px-4 py-2 rounded-[1000px]">New</button>
                     <img class="background" src="images/hero-circle.png" alt="">
                     <img class="microphone" src="images/microphone.png" alt="">
                 </div>
                 
-                <div class="hero-desc flex flex-col justify-center items-center text-white">
+                <div class="hero-desc flex flex-col justify-center items-center text-white mb-16">
                     <h2 class="font-inter font-extrabold text-6xl  mb-2">TechWave</h2>
                     <p class="font-inter mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                     <div class="flex gap-3">
@@ -46,7 +47,37 @@
     </header>
 
     <main>
-        
+        <section class="bg-[#1A0B2E] flex flex-col justify-center items-center">
+            <div class="max-w-[1200px] text-center border-b border-[#ffffff]">
+                <h1 class="font-bold text-5xl text-white mb-4">About The Podcast</h1>
+                <p class="text-[16px] text-white mb-20">
+                    TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br>
+                    We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>
+                    and share stories of personal growth from industry leaders. <br><br>
+
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                </p>
+            </div>
+            
+            <div class="flex gap-20 mt-20 mb-[120px]">
+                <div class="text-center">
+                    <h2 class="text-[#00FF88] text-5xl font-black">150k+</h2>
+                    <h5 class="text-[16px] text-white">MONTHLY LISTENERS</h5>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-[#00FF88] text-5xl font-black">200+</h2>
+                    <h5 class="text-[16px] text-white">EPISODES PUBLISHED</h5>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-[#00FF88] text-5xl font-black">4.9<i class="fa-solid fa-star"></i></h2>
+                    <h5 class="text-[16px] text-white">AVERAGE RATING</h5>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-[#00FF88] text-5xl font-black">50+</h2>
+                    <h5 class="text-[16px] text-white">INDUSTRY EXPERTS</h5>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
